@@ -1,0 +1,177 @@
+/*-----------CONTAINERS-----------*/
+
+.container-fluid {
+    padding: 0;
+}
+
+/*-----------DIVS-----------*/
+
+#navDiv {
+    position: fixed;
+    margin-top: 80px;
+    height: 100%;
+}
+#fixedNameDiv {
+    text-align: center;
+    position: fixed;
+    margin-left: 46%;
+    margin-top: 1%;
+}
+#homeDiv {
+    background-color: #693827;
+    height: 725px;
+}
+#aboutDiv {
+    border-bottom: solid black 5px;
+}
+.portfolioTabs {
+    border-bottom: solid black 2px;
+    cursor: pointer;
+}
+.portfolioTabs:first-of-type {
+    border-top: solid black 2px;
+}
+.hiddenContentBtnsDiv {
+    text-align: right;
+    margin-top: -50px;
+    margin-left: 63%;
+    width: 37%;
+}
+
+/*-----------HEADERS-----------*/
+
+#fixedNameHeader {
+    font-style: oblique;
+}
+#mainHeader {
+    margin-top: 280px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.mainHeaderSpan {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.divHeaders {
+    font-size: 45px;
+    text-align: right;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+#aboutPrologueHeader {
+    margin-top: 0;
+}
+#portfolioHeader {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.portfolioHeaders {
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    font-size: 35px;
+    /*width: 70%;*/
+}
+
+/*-----------ANCHORS-----------*/
+
+.navA {
+    font-size: 30px;
+    color: white;
+}
+.portfolioA {
+    color: black;
+}
+.portfolioA:link {
+    text-decoration: none;
+    color: black;
+}
+.portfolioA:hover {
+    text-decoration: none;
+    color: black;
+}
+.portfolioA:active {
+    text-decoration: none;
+    color: black;
+}
+.portfolioA:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/*-----------PARAGRAPHS-----------*/
+
+p {
+    font-size: 20px;
+}
+#numberSenseP {
+    padding-bottom: 20px;
+}
+.portfolioTabParagraphs {
+    padding-top: 25px;
+    padding-left: 25px;
+    width: 39%;
+}
+
+/*-----------BUTTONS-----------*/
+
+#openNavBtn {
+    position: fixed;
+    border: none;
+    background-color: transparent;
+    font-size: 50px;
+    outline: none;
+    margin-left: 1%;
+    color: white;
+}
+
+/*-----------ANIMATE WIDTH-----------*/
+
+.width {
+    height: auto;
+    -webkit-transition: width 0.35s ease;
+    -moz-transition: width 0.35s ease;
+    -o-transition: width 0.35s ease;
+    transition: width 0.35s ease;
+}
+
+/*-----------LISTS-----------*/
+
+li {
+    padding-bottom: 10px;
+    list-style: square;
+    font-size: 25px;
+    color: white;
+}
+
+/*-----------SPANS-----------*/
+
+.portfolioTabBtns {
+    font-size: 22px;
+    outline: none;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    padding: 0 10px 0 10px;
+}
+.portfolioTabBtns:hover {
+    color: grey;
+}
+.portfolioTabBtns:last-of-type {
+    border-right: transparent;
+}
+.portfolioTabBtns:nth-child(2) {
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+}
+/*-----------IMAGES-----------*/
+
+img {
+    width: 53%;
+    height: 430px;
+    margin-top: -370px;
+    margin-left: 45%;
+}
